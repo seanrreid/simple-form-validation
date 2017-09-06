@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form Validation</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<header class="masthead">
+    <div class="wrapper">
+        <h1 class="u-center">Simple Form Validation</h1>
+    </div>
+</header>
+<main>
+    <div class="wrapper">
+        <form name="userInfo" action="#" method="post">
+            <fieldset>
+                <legend>Test Form</legend>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" class="form-control name" id="firstName" placeholder="First Name" title="Enter first name (e.g. Leia)">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" class="form-control name" id="lastName" placeholder="Last Name" title="Enter last name (e.g. Skywalker)">
+                </div>
+                <div class="form-group">
+                    <label for="Age">Age</label>
+                    <input type="tel" name="Age" class="form-control tel" id="age" placeholder="Age" title="Enter Age">
+                </div>
+                <button id="submitButton" type="submit" class="btn">Submit</button>
+            </fieldset>
+        </form>
+        <div class="response-output">
+
+        </div>
+    </div>
+</main>
+<script src="scripts/script.js"></script>
+</body>
+</html>
