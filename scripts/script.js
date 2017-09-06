@@ -5,13 +5,13 @@ var submitButton = document.getElementById('submitButton'),
     lastName = document.getElementById('lastName'),
     age = document.getElementById('age');
 
-function isNumeric(n) {
-    return !isNaN(parseFloat(n)) && isFinite(n);
+function isNumeric(number) {
+    return !isNaN(parseFloat(number)) && isFinite(number);
 }
 
-function addClass(el, className) {
-    if (el.classList) {
-        el.classList.add(className);
+function addClass(element, className) {
+    if (element.classList) {
+        element.classList.add(className);
     }
 }
 
@@ -24,4 +24,3 @@ function removeClass(el, className) {
 function validateTheForm() {
     // do something to validate the form
 }
-
