@@ -1,3 +1,5 @@
+"use strict";
+
 var submitButton = document.getElementById('submitButton'),
     firstName = document.getElementById('firstName'),
     lastName = document.getElementById('lastName'),
